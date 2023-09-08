@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: trillian-logsigner
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: trillian-logsigner
+    app.kubernetes.io/part-of: trillian
+  name: trillian-logsigneraciz
+spec:
+  path: /
+  port:
+    targetPort: 6379
+  to:
+    kind: Service
+    name: trillian-logsigner
+    weight: null
+status: {}
