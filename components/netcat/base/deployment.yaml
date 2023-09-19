@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: netcat
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/netcat@sha256:418b5ad6026eff26d85bd33808d1335a641c0aebda80032927ce3f95e585a124
+      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/netcat@sha256:ad462cf8038132008926c06eba3bffd0c3f49ca4a7226efb05deacfdda68bef8
         name: my-go
         ports:
         - containerPort: 8081
