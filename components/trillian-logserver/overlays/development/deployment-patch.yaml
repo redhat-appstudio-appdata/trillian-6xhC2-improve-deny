@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/trillian-logserver@sha256:209677b7266d8ca132a83291b2b967569e4917e1e1d453cabcb73ec663f5eaa6
+      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/trillian-logserver@sha256:a34d155d59d476d235620c09bf8f3f428ca0f2193f3f65bbe31090f9048851a6
         name: my-go
         resources: {}
 status: {}
