@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: trillian-logserver
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/trillian-logserver@sha256:0416fb78c1e0481f8fa4fa5903afc6125f1ad313768e6749fbde103161b019b8
+      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/trillian-logserver@sha256:022cc1e846897fb2cc176f895f3b1ee120c269629a5a1fc8206e2789ed2eef60
         name: my-go
         ports:
         - containerPort: 8081
