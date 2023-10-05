@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: netcat
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/netcat@sha256:1c9d139ed4b91f699ac06d62dab6d6f5bcfae90b8e97aee5e0325c31bba0ac6c
         imagePullPolicy: Always
         name: container-image
         ports:
