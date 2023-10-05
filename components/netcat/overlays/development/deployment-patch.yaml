@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: netcat
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/trillian/netcat@sha256:1c9d139ed4b91f699ac06d62dab6d6f5bcfae90b8e97aee5e0325c31bba0ac6c
+        name: container-image
+        resources: {}
+status: {}
